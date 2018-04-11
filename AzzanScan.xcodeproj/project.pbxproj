@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		85442E5A1EB2D69600651B34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85442E591EB2D69600651B34 /* main.m */; };
+		85442E5D1EB2D69600651B34 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85442E5C1EB2D69600651B34 /* AppDelegate.m */; };
+		85442E601EB2D69600651B34 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85442E5F1EB2D69600651B34 /* ViewController.m */; };
+		85442E631EB2D69600651B34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85442E611EB2D69600651B34 /* Main.storyboard */; };
+		85442E651EB2D69700651B34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85442E641EB2D69700651B34 /* Assets.xcassets */; };
+		85442E681EB2D69700651B34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85442E661EB2D69700651B34 /* LaunchScreen.storyboard */; };
+		85442E731EB2D69700651B34 /* AzzanScanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85442E721EB2D69700651B34 /* AzzanScanTests.m */; };
+		85442E7E1EB2D69700651B34 /* AzzanScanUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85442E7D1EB2D69700651B34 /* AzzanScanUITests.m */; };
+		85442E971EB2D82F00651B34 /* BLScanView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85442E941EB2D82F00651B34 /* BLScanView.m */; };
+		85442E981EB2D82F00651B34 /* blScan@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 85442E951EB2D82F00651B34 /* blScan@2x.png */; };
+		85442E991EB2D82F00651B34 /* scanline.png in Resources */ = {isa = PBXBuildFile; fileRef = 85442E961EB2D82F00651B34 /* scanline.png */; };
+		85442E9C1EB2D8A200651B34 /* BLScanController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85442E9B1EB2D8A200651B34 /* BLScanController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		85442E6F1EB2D69700651B34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85442E4D1EB2D69600651B34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85442E541EB2D69600651B34;
+			remoteInfo = AzzanScan;
+		};
+		85442E7A1EB2D69700651B34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85442E4D1EB2D69600651B34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85442E541EB2D69600651B34;
+			remoteInfo = AzzanScan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		85442E551EB2D69600651B34 /* AzzanScan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AzzanScan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85442E591EB2D69600651B34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		85442E5B1EB2D69600651B34 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		85442E5C1EB2D69600651B34 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		85442E5E1EB2D69600651B34 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		85442E5F1EB2D69600651B34 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		85442E621EB2D69600651B34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		85442E641EB2D69700651B34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		85442E671EB2D69700651B34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		85442E691EB2D69700651B34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85442E6E1EB2D69700651B34 /* AzzanScanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AzzanScanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		85442E721EB2D69700651B34 /* AzzanScanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AzzanScanTests.m; sourceTree = "<group>"; };
+		85442E741EB2D69700651B34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85442E791EB2D69700651B34 /* AzzanScanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AzzanScanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		85442E7D1EB2D69700651B34 /* AzzanScanUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AzzanScanUITests.m; sourceTree = "<group>"; };
+		85442E7F1EB2D69700651B34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85442E931EB2D82F00651B34 /* BLScanView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLScanView.h; sourceTree = "<group>"; };
+		85442E941EB2D82F00651B34 /* BLScanView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLScanView.m; sourceTree = "<group>"; };
+		85442E951EB2D82F00651B34 /* blScan@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blScan@2x.png"; sourceTree = "<group>"; };
+		85442E961EB2D82F00651B34 /* scanline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scanline.png; sourceTree = "<group>"; };
+		85442E9A1EB2D8A200651B34 /* BLScanController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLScanController.h; sourceTree = "<group>"; };
+		85442E9B1EB2D8A200651B34 /* BLScanController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLScanController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85442E521EB2D69600651B34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85442E6B1EB2D69700651B34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85442E761EB2D69700651B34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		85442E4C1EB2D69600651B34 = {
+			isa = PBXGroup;
+			children = (
+				85442E571EB2D69600651B34 /* AzzanScan */,
+				85442E711EB2D69700651B34 /* AzzanScanTests */,
+				85442E7C1EB2D69700651B34 /* AzzanScanUITests */,
+				85442E561EB2D69600651B34 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		85442E561EB2D69600651B34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85442E551EB2D69600651B34 /* AzzanScan.app */,
+				85442E6E1EB2D69700651B34 /* AzzanScanTests.xctest */,
+				85442E791EB2D69700651B34 /* AzzanScanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85442E571EB2D69600651B34 /* AzzanScan */ = {
+			isa = PBXGroup;
+			children = (
+				85442E921EB2D82F00651B34 /* BLScanView */,
+				85442E5B1EB2D69600651B34 /* AppDelegate.h */,
+				85442E5C1EB2D69600651B34 /* AppDelegate.m */,
+				85442E5E1EB2D69600651B34 /* ViewController.h */,
+				85442E5F1EB2D69600651B34 /* ViewController.m */,
+				85442E611EB2D69600651B34 /* Main.storyboard */,
+				85442E641EB2D69700651B34 /* Assets.xcassets */,
+				85442E661EB2D69700651B34 /* LaunchScreen.storyboard */,
+				85442E691EB2D69700651B34 /* Info.plist */,
+				85442E581EB2D69600651B34 /* Supporting Files */,
+			);
+			path = AzzanScan;
+			sourceTree = "<group>";
+		};
+		85442E581EB2D69600651B34 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				85442E591EB2D69600651B34 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		85442E711EB2D69700651B34 /* AzzanScanTests */ = {
+			isa = PBXGroup;
+			children = (
+				85442E721EB2D69700651B34 /* AzzanScanTests.m */,
+				85442E741EB2D69700651B34 /* Info.plist */,
+			);
+			path = AzzanScanTests;
+			sourceTree = "<group>";
+		};
+		85442E7C1EB2D69700651B34 /* AzzanScanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				85442E7D1EB2D69700651B34 /* AzzanScanUITests.m */,
+				85442E7F1EB2D69700651B34 /* Info.plist */,
+			);
+			path = AzzanScanUITests;
+			sourceTree = "<group>";
+		};
+		85442E921EB2D82F00651B34 /* BLScanView */ = {
+			isa = PBXGroup;
+			children = (
+				85442E931EB2D82F00651B34 /* BLScanView.h */,
+				85442E941EB2D82F00651B34 /* BLScanView.m */,
+				85442E951EB2D82F00651B34 /* blScan@2x.png */,
+				85442E961EB2D82F00651B34 /* scanline.png */,
+				85442E9A1EB2D8A200651B34 /* BLScanController.h */,
+				85442E9B1EB2D8A200651B34 /* BLScanController.m */,
+			);
+			path = BLScanView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		85442E541EB2D69600651B34 /* AzzanScan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85442E821EB2D69700651B34 /* Build configuration list for PBXNativeTarget "AzzanScan" */;
+			buildPhases = (
+				85442E511EB2D69600651B34 /* Sources */,
+				85442E521EB2D69600651B34 /* Frameworks */,
+				85442E531EB2D69600651B34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AzzanScan;
+			productName = AzzanScan;
+			productReference = 85442E551EB2D69600651B34 /* AzzanScan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		85442E6D1EB2D69700651B34 /* AzzanScanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85442E851EB2D69700651B34 /* Build configuration list for PBXNativeTarget "AzzanScanTests" */;
+			buildPhases = (
+				85442E6A1EB2D69700651B34 /* Sources */,
+				85442E6B1EB2D69700651B34 /* Frameworks */,
+				85442E6C1EB2D69700651B34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85442E701EB2D69700651B34 /* PBXTargetDependency */,
+			);
+			name = AzzanScanTests;
+			productName = AzzanScanTests;
+			productReference = 85442E6E1EB2D69700651B34 /* AzzanScanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		85442E781EB2D69700651B34 /* AzzanScanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85442E881EB2D69700651B34 /* Build configuration list for PBXNativeTarget "AzzanScanUITests" */;
+			buildPhases = (
+				85442E751EB2D69700651B34 /* Sources */,
+				85442E761EB2D69700651B34 /* Frameworks */,
+				85442E771EB2D69700651B34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85442E7B1EB2D69700651B34 /* PBXTargetDependency */,
+			);
+			name = AzzanScanUITests;
+			productName = AzzanScanUITests;
+			productReference = 85442E791EB2D69700651B34 /* AzzanScanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85442E4D1EB2D69600651B34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Azzan;
+				TargetAttributes = {
+					85442E541EB2D69600651B34 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = L7Y62VFKUR;
+						ProvisioningStyle = Automatic;
+					};
+					85442E6D1EB2D69700651B34 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = L7Y62VFKUR;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 85442E541EB2D69600651B34;
+					};
+					85442E781EB2D69700651B34 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = L7Y62VFKUR;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 85442E541EB2D69600651B34;
+					};
+				};
+			};
+			buildConfigurationList = 85442E501EB2D69600651B34 /* Build configuration list for PBXProject "AzzanScan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 85442E4C1EB2D69600651B34;
+			productRefGroup = 85442E561EB2D69600651B34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85442E541EB2D69600651B34 /* AzzanScan */,
+				85442E6D1EB2D69700651B34 /* AzzanScanTests */,
+				85442E781EB2D69700651B34 /* AzzanScanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85442E531EB2D69600651B34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85442E991EB2D82F00651B34 /* scanline.png in Resources */,
+				85442E681EB2D69700651B34 /* LaunchScreen.storyboard in Resources */,
+				85442E981EB2D82F00651B34 /* blScan@2x.png in Resources */,
+				85442E651EB2D69700651B34 /* Assets.xcassets in Resources */,
+				85442E631EB2D69600651B34 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85442E6C1EB2D69700651B34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85442E771EB2D69700651B34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85442E511EB2D69600651B34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85442E601EB2D69600651B34 /* ViewController.m in Sources */,
+				85442E9C1EB2D8A200651B34 /* BLScanController.m in Sources */,
+				85442E971EB2D82F00651B34 /* BLScanView.m in Sources */,
+				85442E5D1EB2D69600651B34 /* AppDelegate.m in Sources */,
+				85442E5A1EB2D69600651B34 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85442E6A1EB2D69700651B34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85442E731EB2D69700651B34 /* AzzanScanTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85442E751EB2D69700651B34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85442E7E1EB2D69700651B34 /* AzzanScanUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		85442E701EB2D69700651B34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85442E541EB2D69600651B34 /* AzzanScan */;
+			targetProxy = 85442E6F1EB2D69700651B34 /* PBXContainerItemProxy */;
+		};
+		85442E7B1EB2D69700651B34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85442E541EB2D69600651B34 /* AzzanScan */;
+			targetProxy = 85442E7A1EB2D69700651B34 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		85442E611EB2D69600651B34 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85442E621EB2D69600651B34 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		85442E661EB2D69700651B34 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85442E671EB2D69700651B34 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		85442E801EB2D69700651B34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		85442E811EB2D69700651B34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85442E831EB2D69700651B34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L7Y62VFKUR;
+				INFOPLIST_FILE = AzzanScan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Azzan.AzzanScan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		85442E841EB2D69700651B34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L7Y62VFKUR;
+				INFOPLIST_FILE = AzzanScan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Azzan.AzzanScan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		85442E861EB2D69700651B34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = L7Y62VFKUR;
+				INFOPLIST_FILE = AzzanScanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Azzan.AzzanScanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AzzanScan.app/AzzanScan";
+			};
+			name = Debug;
+		};
+		85442E871EB2D69700651B34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = L7Y62VFKUR;
+				INFOPLIST_FILE = AzzanScanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Azzan.AzzanScanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AzzanScan.app/AzzanScan";
+			};
+			name = Release;
+		};
+		85442E891EB2D69700651B34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = L7Y62VFKUR;
+				INFOPLIST_FILE = AzzanScanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Azzan.AzzanScanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AzzanScan;
+			};
+			name = Debug;
+		};
+		85442E8A1EB2D69700651B34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = L7Y62VFKUR;
+				INFOPLIST_FILE = AzzanScanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Azzan.AzzanScanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AzzanScan;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85442E501EB2D69600651B34 /* Build configuration list for PBXProject "AzzanScan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85442E801EB2D69700651B34 /* Debug */,
+				85442E811EB2D69700651B34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85442E821EB2D69700651B34 /* Build configuration list for PBXNativeTarget "AzzanScan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85442E831EB2D69700651B34 /* Debug */,
+				85442E841EB2D69700651B34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		85442E851EB2D69700651B34 /* Build configuration list for PBXNativeTarget "AzzanScanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85442E861EB2D69700651B34 /* Debug */,
+				85442E871EB2D69700651B34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		85442E881EB2D69700651B34 /* Build configuration list for PBXNativeTarget "AzzanScanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85442E891EB2D69700651B34 /* Debug */,
+				85442E8A1EB2D69700651B34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 85442E4D1EB2D69600651B34 /* Project object */;
+}
